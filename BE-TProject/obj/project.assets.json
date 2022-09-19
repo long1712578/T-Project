@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Code\\T-Project\\BE-TProject\\BE-TProject.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\TProject\\T-Project\\BE-TProject\\BE-TProject.csproj",
       "projectName": "BE-TProject",
-      "projectPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Code\\T-Project\\BE-TProject\\BE-TProject.csproj",
+      "projectPath": "C:\\Users\\Admin\\TProject\\T-Project\\BE-TProject\\BE-TProject.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Code\\T-Project\\BE-TProject\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\TProject\\T-Project\\BE-TProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
