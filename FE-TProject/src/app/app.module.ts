@@ -12,11 +12,13 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 import localeVi from '@angular/common/locales/vi'; 
 import { registerLocaleData } from '@angular/common'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MainHeaderComponent } from './main-header/main-header.component';
 // Thiết lập tiếng Việt
 registerLocaleData(localeVi);
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainHeaderComponent
   ],
   imports: [
     BrowserModule,
