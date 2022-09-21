@@ -13,12 +13,14 @@ import localeVi from '@angular/common/locales/vi';
 import { registerLocaleData } from '@angular/common'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainHeaderComponent } from './main-header/main-header.component';
+import { MainBodyComponent } from './main-body/main-body.component';
 // Thiết lập tiếng Việt
 registerLocaleData(localeVi);
 @NgModule({
   declarations: [
     AppComponent,
-    MainHeaderComponent
+    MainHeaderComponent,
+    MainBodyComponent
   ],
   imports: [
     BrowserModule,

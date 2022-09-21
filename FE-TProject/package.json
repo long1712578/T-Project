@@ -22,8 +22,10 @@
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.7",
     "date-fns": "^2.16.1",
+    "html2canvas": "^1.4.1",
     "rxjs": "~7.5.0",
     "tds-ui": "https://tang-ui.tpos.dev/lib/tds-ui-2.2.0.tgz",
+    "three": "^0.144.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
@@ -33,6 +35,7 @@
     "@angular/compiler-cli": "~13.3.0",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
+    "@types/three": "^0.144.0",
     "autoprefixer": "^10.4.11",
     "jasmine-core": "~4.0.0",
     "karma": "~6.3.0",
