@@ -5,6 +5,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    position: relative;
+    overflow: hidden;
 }
 
 @keyframes gradient {
@@ -22,4 +24,5 @@
 }
 .app-body{
     flex: 1 1 auto;
+    overflow: hidden;
 }
