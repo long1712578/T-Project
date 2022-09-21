@@ -1,4 +1,17 @@
+using Intrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+using UniqueKey;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<TProjectContext>(x => x.UseSqlServer(connectionString));
+
+//DI
+builder.Services.AddTransient<IUniqueKey, SequentialUniqueKeyGenerator>();
+//builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddControllers();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
