@@ -3032,7 +3032,8 @@
         "dependencies": {
           "Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/Intrastructure.dll": {}
