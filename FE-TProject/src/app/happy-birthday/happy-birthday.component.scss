@@ -1,0 +1,43 @@
+
+ .tmt-logo img {
+     width: 400px;
+ }
+
+:host {
+    .app-angular-img {
+        display: inline-block;
+        width: 400px;
+    }
+
+    .letter {
+        font-size: 3em;
+        display: inline-block;
+        min-width: 0.2em;
+        color: #df4a32;
+    }
+}
+.con-main {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;;
+}
+
+.include-con-main{
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.text-2{
+    display: flex;
+        justify-content: center;
+}
+
+.animate-btn{
+    font-size: 2rem;
+}
+

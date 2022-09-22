@@ -15,6 +15,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainHeaderComponent } from './main-header/main-header.component';
 import { MainBodyComponent } from './main-body/main-body.component';
 import { BodyFirstComponent } from './main-body/body-first/body-first.component';
+import { CarouselModule } from 'ngx-acuw';
+import { IntroCompanyComponent } from './intro-company/intro-company.component';
+import { HappyBirthdayComponent } from './happy-birthday/happy-birthday.component';
 // Thiết lập tiếng Việt
 registerLocaleData(localeVi);
 @NgModule({
@@ -22,7 +25,9 @@ registerLocaleData(localeVi);
     AppComponent,
     MainHeaderComponent,
     MainBodyComponent,
-    BodyFirstComponent
+    BodyFirstComponent,
+    IntroCompanyComponent,
+    HappyBirthdayComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +35,7 @@ registerLocaleData(localeVi);
     BrowserAnimationsModule,
     DragDropModule,
     ScrollingModule,
+    CarouselModule
   ],
   providers: [{ provide: TDS_I18N, useValue: vi_VN }],
   bootstrap: [AppComponent]

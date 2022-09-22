@@ -1,0 +1,29 @@
+<div class="con-main">
+    <div class="include-con-main">
+        <div class="app-angular-img" [@btnEnter]="{value: animationRubberBand }"
+            (@btnEnter.done)=" hueState = !hueState"
+            [@enterLetterAnim1]="{value: animationRubberBand, params: { delay: 100} }">
+            <img class="tmt-logo" alt="Tmt Logo" src="./assets/tmt-logo.png">
+        </div>
+        <button [@btnEnter] [@enterLetterAnim1]="{value: animationRubberBand, params: { delay: 300} }" color="primary"
+            class="animate-btn" (click)="animate()">Kiến tạo để thành công</button>
+
+        <div *ngIf="isHappy" [@flash]="flashState">
+            <div>
+                <div class="letter" *ngFor="let letter of text1; let i = index; let last = last"
+                    [@enterLetterAnim1]="{value: '', params: { delay: 1500 + i * 100} }"
+                    [@letterAnim1]="{value: animationState, params: { delay: i * 30} }"
+                    [@hueLetter]="{value: hueState, params: {delay: i * 50}}"
+                    (@letterAnim1.done)="last && hueState = !hueState">{{letter}}</div>
+            </div>
+
+            <div class="text-2">
+                <div class="letter" *ngFor="let letter of text2; let i = index; let last = last"
+                    [@enterLetterAnim2]="{value: '', params: { delay: 6000 + getDelay(i, text2.length) } }"
+                    [@letterAnim2]="{value: animationState, params: { delay: 500 + i * 30} }"
+                    [@hueLetter]="{value: hueState, params: {delay: i * 75}}"
+                    (@enterLetterAnim2.done)="last && hueState = !hueState">{{letter}}</div>
+            </div>
+        </div>
+    </div>
+</div>
