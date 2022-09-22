@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\TProject\\T-Project\\BE-TProject\\BE-TProject.csproj": {}
+    "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\BE-TProject\\BE-TProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\TProject\\T-Project\\Application\\Application.csproj": {
+    "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\TProject\\T-Project\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Admin\\TProject\\T-Project\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\TProject\\T-Project\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\TProject\\T-Project\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Admin\\TProject\\T-Project\\Core\\Core.csproj"
+              "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Core\\Core.csproj"
               },
-              "C:\\Users\\Admin\\TProject\\T-Project\\Intrastructure\\Intrastructure.csproj": {
-                "projectPath": "C:\\Users\\Admin\\TProject\\T-Project\\Intrastructure\\Intrastructure.csproj"
+              "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Intrastructure\\Intrastructure.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Intrastructure\\Intrastructure.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\TProject\\T-Project\\BE-TProject\\BE-TProject.csproj": {
+    "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\BE-TProject\\BE-TProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\TProject\\T-Project\\BE-TProject\\BE-TProject.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\BE-TProject\\BE-TProject.csproj",
         "projectName": "BE-TProject",
-        "projectPath": "C:\\Users\\Admin\\TProject\\T-Project\\BE-TProject\\BE-TProject.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\BE-TProject\\BE-TProject.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\TProject\\T-Project\\BE-TProject\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\BE-TProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,11 +90,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\TProject\\T-Project\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Admin\\TProject\\T-Project\\Application\\Application.csproj"
+              "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Application\\Application.csproj"
               },
-              "C:\\Users\\Admin\\TProject\\T-Project\\Intrastructure\\Intrastructure.csproj": {
-                "projectPath": "C:\\Users\\Admin\\TProject\\T-Project\\Intrastructure\\Intrastructure.csproj"
+              "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Intrastructure\\Intrastructure.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Intrastructure\\Intrastructure.csproj"
               }
             }
           }
@@ -147,14 +147,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\TProject\\T-Project\\Core\\Core.csproj": {
+    "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\TProject\\T-Project\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Admin\\TProject\\T-Project\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\TProject\\T-Project\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -202,14 +202,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\TProject\\T-Project\\Intrastructure\\Intrastructure.csproj": {
+    "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Intrastructure\\Intrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\TProject\\T-Project\\Intrastructure\\Intrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Intrastructure\\Intrastructure.csproj",
         "projectName": "Intrastructure",
-        "projectPath": "C:\\Users\\Admin\\TProject\\T-Project\\Intrastructure\\Intrastructure.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Intrastructure\\Intrastructure.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\TProject\\T-Project\\Intrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Intrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -226,8 +226,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\TProject\\T-Project\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Admin\\TProject\\T-Project\\Core\\Core.csproj"
+              "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\Core\\Core.csproj"
               }
             }
           }

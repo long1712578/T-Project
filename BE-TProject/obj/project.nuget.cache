@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bqc+51p5+e1vMU+Dvi2mFZX4fEg/n4DKfi5ndaXmiMg/mlt/FLwfy8nv/j4D0xpJLHcAbsrctXZu5G3WeXW1yg==",
+  "dgSpecHash": "AhCUrGCYieMqGJLsGq1Wlip6plVienX7LWHxR0rS0WR6hUBVn2SgyH8Da48bC4d0mqj/dwyEjr6aIo9sSdQLUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\TProject\\T-Project\\BE-TProject\\BE-TProject.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\OneDrive - VNU-HCMUS\\Desktop\\Docker\\T-Project\\BE-TProject\\BE-TProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\abp\\7.3.0\\abp.7.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
