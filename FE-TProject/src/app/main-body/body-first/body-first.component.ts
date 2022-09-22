@@ -9,17 +9,17 @@ import { Component, ElementRef, OnInit, Renderer2, ViewChild } from '@angular/co
 export class BodyFirstComponent implements OnInit {
 
   @ViewChild('bodyFirst', { static: true }) bodyFirst!: ElementRef;
-  carouselItems: Array<String> = [];
+  carouselItems = [
+    {images:'assets/11-nam.jpg',des:'Tdesk chúc mừng sinh nhật công ty'},
+    {images:'assets/sinh-nhat-hang-thang.jpg',des:'Tdesk chúc mừng sinh nhật công ty'},
+    {images:'assets/team-buding.jpg',des:'Tdesk chúc mừng sinh nhật công ty'},
+    {images:'assets/trung-thu.jpg',des:'Tdesk chúc mừng sinh nhật công ty'}
+  ]
+  
   constructor(private renderer2: Renderer2) { }
 
   ngOnInit(): void {
-    this.carouselItems = [
-      'https://source.unsplash.com/7BLRSG-AkJs',
-      'https://source.unsplash.com/rcJbbK5_iIA',
-      'https://source.unsplash.com/yQUwIlUeU4o',
-      'https://source.unsplash.com/MlaQmWvzRTw',
-      'https://source.unsplash.com/6dTpYUcr1yg',
-    ];
+    
 
     // const scene = new THREE.Scene();
     // const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);

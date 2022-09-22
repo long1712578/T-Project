@@ -10,7 +10,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 
 // Đa ngôn ngữ
 import localeVi from '@angular/common/locales/vi'; 
-import { registerLocaleData } from '@angular/common'; 
+import { CommonModule, registerLocaleData } from '@angular/common'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainHeaderComponent } from './main-header/main-header.component';
 import { MainBodyComponent } from './main-body/main-body.component';
@@ -27,7 +27,7 @@ registerLocaleData(localeVi);
     MainBodyComponent,
     BodyFirstComponent,
     IntroCompanyComponent,
-    HappyBirthdayComponent
+    HappyBirthdayComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +35,8 @@ registerLocaleData(localeVi);
     BrowserAnimationsModule,
     DragDropModule,
     ScrollingModule,
-    CarouselModule
+    CarouselModule,
+    CommonModule
   ],
   providers: [{ provide: TDS_I18N, useValue: vi_VN }],
   bootstrap: [AppComponent]

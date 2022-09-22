@@ -14,7 +14,6 @@ const routes: Routes = [
     path: 'birthday',
     component: HappyBirthdayComponent
   },
-  
   {
     path: 'intro',
     children: [
@@ -23,7 +22,12 @@ const routes: Routes = [
         component: IntroCompanyComponent
       },
     ]
-  }
+  },
+  {
+    path: 'test',
+    loadChildren: () =>
+      import(`./test/test.module`).then((m) => m.TestModule),
+  },
 ];
 
 @NgModule({

@@ -1,4 +1,9 @@
 <div class="con-main">
+    <div *ngFor="let i of number1" class="snow">
+        
+        <img src="./assets/kim-tuyen.png" alt="">
+    </div>
+    
     <div class="include-con-main">
         <div class="app-angular-img" [@btnEnter]="{value: animationRubberBand }"
             (@btnEnter.done)=" hueState = !hueState"

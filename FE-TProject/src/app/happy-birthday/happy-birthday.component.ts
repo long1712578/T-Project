@@ -40,6 +40,7 @@ export class HappyBirthdayComponent implements OnInit {
   hueState = false;
   flashState = false;
   animationRubberBand = false;
+  number1: Array<number>=[...Array(100).keys()];
 
   constructor() { }
 
