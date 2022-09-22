@@ -8,5 +8,10 @@ namespace Core.Entities
 {
     public class Message
     {
+        public string Id { get; set; }
+        public string Content { get; set; }
+        public string ConversationId { get; set; }
+        public string cookie { get; set; }
+        public DateTime Created { get; set; }
     }
 }

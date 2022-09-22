@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Implements\" />
-    <Folder Include="Dtos\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
     <ProjectReference Include="..\Intrastructure\Intrastructure.csproj" />
   </ItemGroup>

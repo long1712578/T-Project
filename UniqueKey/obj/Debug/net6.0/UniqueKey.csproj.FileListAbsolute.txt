@@ -1,0 +1,12 @@
+C:\Users\Admin\TProject\T-Project\UniqueKey\bin\Debug\net6.0\UniqueKey.deps.json
+C:\Users\Admin\TProject\T-Project\UniqueKey\bin\Debug\net6.0\UniqueKey.dll
+C:\Users\Admin\TProject\T-Project\UniqueKey\bin\Debug\net6.0\UniqueKey.pdb
+C:\Users\Admin\TProject\T-Project\UniqueKey\obj\Debug\net6.0\UniqueKey.csproj.AssemblyReference.cache
+C:\Users\Admin\TProject\T-Project\UniqueKey\obj\Debug\net6.0\UniqueKey.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\TProject\T-Project\UniqueKey\obj\Debug\net6.0\UniqueKey.AssemblyInfoInputs.cache
+C:\Users\Admin\TProject\T-Project\UniqueKey\obj\Debug\net6.0\UniqueKey.AssemblyInfo.cs
+C:\Users\Admin\TProject\T-Project\UniqueKey\obj\Debug\net6.0\UniqueKey.csproj.CoreCompileInputs.cache
+C:\Users\Admin\TProject\T-Project\UniqueKey\obj\Debug\net6.0\UniqueKey.dll
+C:\Users\Admin\TProject\T-Project\UniqueKey\obj\Debug\net6.0\refint\UniqueKey.dll
+C:\Users\Admin\TProject\T-Project\UniqueKey\obj\Debug\net6.0\UniqueKey.pdb
+C:\Users\Admin\TProject\T-Project\UniqueKey\obj\Debug\net6.0\ref\UniqueKey.dll

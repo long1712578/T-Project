@@ -1,0 +1,17 @@
+C:\Users\Admin\TProject\T-Project\Application\bin\Debug\net6.0\Application.deps.json
+C:\Users\Admin\TProject\T-Project\Application\bin\Debug\net6.0\Application.dll
+C:\Users\Admin\TProject\T-Project\Application\bin\Debug\net6.0\Application.pdb
+C:\Users\Admin\TProject\T-Project\Application\bin\Debug\net6.0\Core.dll
+C:\Users\Admin\TProject\T-Project\Application\bin\Debug\net6.0\Intrastructure.dll
+C:\Users\Admin\TProject\T-Project\Application\bin\Debug\net6.0\Core.pdb
+C:\Users\Admin\TProject\T-Project\Application\bin\Debug\net6.0\Intrastructure.pdb
+C:\Users\Admin\TProject\T-Project\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Users\Admin\TProject\T-Project\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\TProject\T-Project\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Users\Admin\TProject\T-Project\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Users\Admin\TProject\T-Project\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\TProject\T-Project\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Users\Admin\TProject\T-Project\Application\obj\Debug\net6.0\Application.dll
+C:\Users\Admin\TProject\T-Project\Application\obj\Debug\net6.0\refint\Application.dll
+C:\Users\Admin\TProject\T-Project\Application\obj\Debug\net6.0\Application.pdb
+C:\Users\Admin\TProject\T-Project\Application\obj\Debug\net6.0\ref\Application.dll

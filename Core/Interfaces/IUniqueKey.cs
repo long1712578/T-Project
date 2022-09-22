@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UniqueKey
+namespace Core.Interfaces
 {
     public interface IUniqueKey
     {
-        string Create();
+        public string Create();
+        public string CreateIdGen();
     }
 }

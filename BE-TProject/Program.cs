@@ -1,6 +1,9 @@
+using Application.Implements;
+using Application.Interfaces;
+using Core.Interfaces;
 using Intrastructure.Data;
+using Intrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
-using UniqueKey;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,32 +12,32 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<TProjectContext>(x => x.UseSqlServer(connectionString));
 
 //DI
+builder.Services.AddTransient<IMessageService, MessageService>();
+builder.Services.AddTransient<IConversationService, ConversationService>();
 builder.Services.AddTransient<IUniqueKey, SequentialUniqueKeyGenerator>();
-//builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddTransient<IConversationRepository, ConversationRepository>();
+builder.Services.AddTransient<IMessageRepository, MessageRepository>();
 builder.Services.AddControllers();
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+//// Add services to the container.
+//builder.Services.AddControllersWithViews();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapControllers();
 
 app.Run();
